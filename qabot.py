@@ -1,25 +1,4 @@
-# =========================================================
-# NOTE FOR EVALUATOR
-# =========================================================
-# This project originally uses IBM watsonx.ai APIs as shown
-# in the assignment instructions.
-#
-# However, IBM Cloud currently requires international card
-# verification for account activation in my region.
-#
-# As a student, I do not have access to an international
-# credit card, so I implemented the same RAG architecture
-# using Google's Gemini API as an alternative.
-#
-# The overall pipeline remains identical:
-# PDF Loader -> Text Splitter -> Embeddings ->
-# Vector Database -> Retriever -> LLM -> Gradio UI
-# =========================================================
 
-
-# =========================================================
-# Imports
-# =========================================================
 import os
 os.environ["USE_TF"] = "0"
 
